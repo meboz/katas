@@ -1,8 +1,0 @@
-
-exports.flatten = function(matrix){
-	var flattened = [];
-	
-	flattened[0] = matrix[0];
-	flattened[1] = matrix[1];
-	return flattened;   
-}
