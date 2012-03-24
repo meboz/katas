@@ -1,0 +1,22 @@
+{
+  "author": "Byron Walker <byron.walker@angryagile.com.au>",
+  "name": "KataBankOCR",
+  "description": "Im learning to node...",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/meboz/katas.git"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "engines": {
+    "node": "0.8"
+  },
+  "dependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}

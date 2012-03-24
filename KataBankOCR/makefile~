@@ -1,0 +1,8 @@
+test:
+	@clear
+	@./node_modules/.bin/mocha -r should -R spec
+
+test-watch:
+	@./node_modules/.bin/mocha -r should -G -w **/*.js -R spec
+
+.PHONY: test

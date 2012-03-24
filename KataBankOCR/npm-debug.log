@@ -1,0 +1,46 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'circle' ]
+info using npm@1.1.2
+info using node@v0.7.6-pre
+verbose config file /home/byron/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+verbose caching /home/byron/Projects/katas/KataBankOCR/package.json
+verbose loadDefaults KataBankOCR@0.0.0
+verbose caching /home/byron/Projects/katas/KataBankOCR/node_modules/mocha/package.json
+verbose loadDefaults mocha@0.14.0
+verbose caching /home/byron/Projects/katas/KataBankOCR/node_modules/should/package.json
+verbose loadDefaults should@0.6.0
+verbose from cache /home/byron/Projects/katas/KataBankOCR/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'circle', null ]
+silly cache add: name, spec, args [ undefined, 'circle', [ 'circle', null ] ]
+verbose parsed url { pathname: 'circle', path: 'circle', href: 'circle' }
+verbose addNamed [ 'circle', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'circle', '', false ]
+verbose raw, before any munging circle
+verbose url resolving [ 'https://registry.npmjs.org/', './circle' ]
+verbose url resolved https://registry.npmjs.org/circle
+http GET https://registry.npmjs.org/circle
+http 404 https://registry.npmjs.org/circle
+silly get cb [ 404,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     date: 'Wed, 21 Mar 2012 12:07:57 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '52',
+silly get cb     'cache-control': 'must-revalidate' } ]
+ERR! 404 'circle' is not in the npm registry.
+ERR! 404 You should bug the author to publish it
+ERR! 404 Note that you can also install from a
+ERR! 404 tarball, folder, or http url, or git url.
+ERR! 
+ERR! System Linux 3.0.0-16-generic
+ERR! command "node" "/usr/local/bin/npm" "install" "circle"
+ERR! cwd /home/byron/Projects/katas/KataBankOCR
+ERR! node -v v0.7.6-pre
+ERR! npm -v 1.1.2
+ERR! code E404
+ERR! message 404 Not Found: circle
+ERR! errno {}
+verbose exit [ 1, true ]
